@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "featureId": "01",
-    "lifecycle": "implementing",
+    "lifecycle": "done",
     "mode": "solo_worktree",
     "winnerAgentId": null,
     "agents": {
@@ -17,8 +17,8 @@
       "email": "johnpviner@gmail.com",
       "at": "2026-04-12T15:28:21.344Z"
     },
-    "currentSpecState": "implementing",
-    "specPath": "/Users/jviner/src/brewboard/docs/specs/features/03-in-progress/feature-01-dark-mode.md",
+    "currentSpecState": "done",
+    "specPath": "/Users/jviner/src/brewboard/docs/specs/features/05-done/feature-01-dark-mode.md",
     "effects": [
       {
         "id": "start.move_spec",
@@ -46,67 +46,40 @@
         "claimExpiredAt": null,
         "reclaimCount": 0,
         "lastError": null
+      },
+      {
+        "id": "close.move_spec_to_done",
+        "type": "move_spec",
+        "payload": {
+          "fromPath": "/Users/jviner/src/brewboard/docs/specs/features/05-done/feature-01-dark-mode.md",
+          "toPath": "/Users/jviner/src/brewboard/docs/specs/features/05-done/feature-01-dark-mode.md"
+        },
+        "status": "succeeded",
+        "claimedAt": null,
+        "claimExpiredAt": null,
+        "reclaimCount": 0,
+        "lastError": null
+      },
+      {
+        "id": "close.write_close_note",
+        "type": "write_close_note",
+        "payload": {
+          "winnerAgentId": ""
+        },
+        "status": "succeeded",
+        "claimedAt": null,
+        "claimExpiredAt": null,
+        "reclaimCount": 0,
+        "lastError": null
       }
     ],
     "lastEffectError": null,
-    "availableActions": [
-      {
-        "kind": "pause-feature",
-        "label": "Pause",
-        "eventType": "feature.pause",
-        "recommendedOrder": 40,
-        "mode": null,
-        "category": "lifecycle",
-        "requiresInput": null,
-        "scope": null,
-        "metadata": null,
-        "clientOnly": false
-      },
-      {
-        "kind": "feature-review",
-        "label": "Review",
-        "eventType": "feature.review",
-        "recommendedOrder": 55,
-        "mode": "agent",
-        "category": "lifecycle",
-        "requiresInput": null,
-        "scope": null,
-        "metadata": null,
-        "clientOnly": false
-      },
-      {
-        "kind": "feature-close",
-        "label": "Close",
-        "eventType": "feature.close",
-        "recommendedOrder": 70,
-        "mode": null,
-        "category": "lifecycle",
-        "requiresInput": null,
-        "scope": null,
-        "metadata": null,
-        "clientOnly": false
-      },
-      {
-        "kind": "feature-reset",
-        "label": "Reset",
-        "eventType": null,
-        "recommendedOrder": 120,
-        "mode": null,
-        "category": "lifecycle",
-        "requiresInput": null,
-        "scope": null,
-        "metadata": {
-          "destructive": true,
-          "confirmationMessage": "Kill tmux sessions, remove the worktree and branch (including any uncommitted work on the branch), clear engine state, and move the spec back to Backlog. This cannot be undone."
-        },
-        "clientOnly": false
-      }
-    ],
-    "eventCount": 10,
+    "availableActions": [],
+    "eventCount": 19,
     "createdAt": "2026-04-12T15:28:21.345Z",
-    "updatedAt": "2026-04-12T15:29:25.254Z",
-    "prUrl": null,
-    "prNumber": null
+    "updatedAt": "2026-04-12T15:29:52.978Z",
+    "prUrl": "https://github.com/jayvee/brewboard/pull/6",
+    "prNumber": 6
   },
   "events": [
     {
@@ -182,6 +155,63 @@
       "type": "signal.agent_ready",
       "agentId": "cc",
       "at": "2026-04-12T15:29:25.254Z"
+    },
+    {
+      "type": "pr.created",
+      "prUrl": "https://github.com/jayvee/brewboard/pull/6",
+      "prNumber": 6,
+      "at": 1776007770427
+    },
+    {
+      "type": "feature.close_requested",
+      "at": "2026-04-12T15:29:52.924Z"
+    },
+    {
+      "type": "effect.requested",
+      "effect": {
+        "id": "close.move_spec_to_done",
+        "type": "move_spec",
+        "payload": {
+          "fromPath": "/Users/jviner/src/brewboard/docs/specs/features/03-in-progress/feature-01-dark-mode.md",
+          "toPath": "/Users/jviner/src/brewboard/docs/specs/features/05-done/feature-01-dark-mode.md"
+        }
+      },
+      "at": "2026-04-12T15:29:52.924Z"
+    },
+    {
+      "type": "effect.requested",
+      "effect": {
+        "id": "close.write_close_note",
+        "type": "write_close_note",
+        "payload": {
+          "winnerAgentId": ""
+        }
+      },
+      "at": "2026-04-12T15:29:52.924Z"
+    },
+    {
+      "type": "effect.claimed",
+      "effectId": "close.move_spec_to_done",
+      "at": "2026-04-12T15:29:52.945Z"
+    },
+    {
+      "type": "effect.succeeded",
+      "effectId": "close.move_spec_to_done",
+      "at": "2026-04-12T15:29:52.955Z"
+    },
+    {
+      "type": "effect.claimed",
+      "effectId": "close.write_close_note",
+      "at": "2026-04-12T15:29:52.963Z"
+    },
+    {
+      "type": "effect.succeeded",
+      "effectId": "close.write_close_note",
+      "at": "2026-04-12T15:29:52.973Z"
+    },
+    {
+      "type": "feature.closed",
+      "at": "2026-04-12T15:29:52.978Z"
     }
   ],
   "stats": {
@@ -190,6 +220,42 @@
     "agents": [
       "cc"
     ],
-    "updatedAt": "2026-04-12T15:29:08.762Z"
+    "updatedAt": "2026-04-12T15:29:52.911Z",
+    "completedAt": "2026-04-12T15:29:52.662Z",
+    "durationMs": 43904,
+    "commitCount": 3,
+    "filesChanged": 8,
+    "linesAdded": 126,
+    "linesRemoved": 37,
+    "lastCommitAt": "2026-04-13T01:29:23+10:00",
+    "lastCommitMessage": "feat: add dark mode",
+    "cost": {
+      "inputTokens": 200,
+      "cachedInputTokens": 3090865,
+      "freshInputTokens": 0,
+      "outputTokens": 19206,
+      "thinkingTokens": 0,
+      "totalTokens": 3297668,
+      "billableTokens": 19406,
+      "estimatedUsd": 1.9188,
+      "model": "claude-sonnet-4-6",
+      "sessions": 1,
+      "costByAgent": {
+        "cc": {
+          "agent": "cc",
+          "model": "claude-sonnet-4-6",
+          "inputTokens": 200,
+          "cachedInputTokens": 3090865,
+          "freshInputTokens": 0,
+          "outputTokens": 19206,
+          "thinkingTokens": 0,
+          "totalTokens": 3297668,
+          "billableTokens": 19406,
+          "costUsd": 1.9188,
+          "sessions": 1,
+          "hasRealData": true
+        }
+      }
+    }
   }
 }
