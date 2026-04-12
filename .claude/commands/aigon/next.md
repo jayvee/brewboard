@@ -27,8 +27,10 @@ Extract context from the branch name using the pattern `feature-<ID>-<agent>-<de
 
 - **Type**: `feature` or `research`
 - **ID**: numeric ID (e.g., `25`)
-- **Agent**: agent code (e.g., `cc`, `gg`, `cx`, `cu`) — if absent, this is a Drive branch
+- **Agent**: agent code (e.g., `cc`, `cu`, `cx`, `gg`) — if absent, this is a Drive branch
 - **Description**: slug description
+
+**Drive vs worktree**: if the agent segment is one of `cc`, `cu`, `cx`, `gg`, this is a Fleet worktree branch — `feature-do` runs automatically on open and must NOT be suggested. If the agent segment is absent (branch is `feature-<ID>-<description>`), this is a Drive branch — `feature-do` must be run manually.
 
 If the branch is `main` (or `master`), skip to **Path D: Main branch**.
 
@@ -42,9 +44,10 @@ If the branch is `main` (or `master`), skip to **Path D: Main branch**.
 > You have uncommitted changes on feature branch `<branch>`.
 >
 > **Suggested next step:**
-> `/aigon:feature-submit`
+> Commit your changes, update your feature log, then run:
+> `aigon agent-status submitted`
 >
-> This will commit your changes, write the implementation log, and signal readiness for review.
+> Implementation is only complete after `aigon agent-status submitted` succeeds.
 
 ---
 
@@ -52,15 +55,32 @@ If the branch is `main` (or `master`), skip to **Path D: Main branch**.
 
 **Condition**: Branch matches `feature-<ID>-*` AND `git status --short` is empty
 
-**Check**: Are there commits on this branch beyond the base? (Look at board output — is the feature already submitted/in-progress?)
+**Check**: Run `git log main..HEAD --oneline` to count commits on this branch beyond the base. Also check whether this is a Drive branch (no agent code) or a worktree branch (agent code present).
 
-**Suggestion**:
-> You are on feature branch `<branch>` with no uncommitted changes.
+#### B1: Drive branch, no implementation commits yet (only the spec-move commit or zero commits)
+
+> You are on Drive branch `<branch>` with no uncommitted changes and no implementation yet.
+>
+> **Suggested next step:**
+> `/aigon:feature-do <ID>`
+>
+> This opens the feature spec and starts the implementation session.
+
+#### B2: Drive branch with implementation commits
+
+> You are on Drive branch `<branch>` with commits and no uncommitted changes.
 >
 > **Suggested next steps:**
 >
-> 1. `/aigon:feature-submit` — if you have committed code ready for review
-> 2. `/aigon:feature-do <ID>` — if you haven't started implementing yet
+> 1. `aigon agent-status submitted` — mark implementation complete and signal ready for review
+> 2. `/aigon:feature-do <ID>` — continue implementing if not yet done
+
+#### B3: Worktree branch (agent code present), any state
+
+> You are in a Fleet worktree (`<branch>`). `feature-do` runs automatically on worktree open — do not suggest it.
+>
+> **Suggested next step:**
+> `aigon agent-status submitted` — once your implementation and log updates are complete
 
 ---
 
@@ -106,8 +126,20 @@ Count the worktrees for each in-progress feature (from board output — look for
 >
 > This will compare all agent implementations and select the best one.
 
-**Drive mode** (1 agent): Suggest done
+**Drive mode** (1 agent, no agent code in branch name): Check whether implementation has been done.
+
+Look at the board output for agent status. If the agent shows `submitted` or `done`, suggest close. Otherwise suggest do. Note: Drive mode requires the user to manually run `feature-do`; it is NOT run automatically.
+
+**If not yet submitted**:
 > Feature `#<ID> <name>` is in progress (Drive mode).
+>
+> **Suggested next step:**
+> `/aigon:feature-do <ID>`
+>
+> This starts the implementation session on the Drive branch.
+
+**If submitted/done**:
+> Feature `#<ID> <name>` is implemented and submitted.
 >
 > **Suggested next step:**
 > `/aigon:feature-close <ID>`
@@ -152,7 +184,7 @@ Run `aigon board` and display the output. Then suggest:
 
 ## Step 4: Present the suggestion
 
-- Display the suggestion(s) clearly as a ready-to-copy slash command
+- Display the suggestion(s) clearly as a ready-to-copy Aigon agent command
 - If there are multiple plausible actions, show a short numbered list (max 3 options)
 - Always include a one-line explanation of what the command does
 - Do NOT auto-execute the suggested command — always let the user confirm
