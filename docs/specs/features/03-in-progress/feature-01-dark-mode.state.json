@@ -7,8 +7,8 @@
     "agents": {
       "cc": {
         "id": "cc",
-        "status": "running",
-        "lastHeartbeatAt": "2026-04-12T14:30:28.535Z",
+        "status": "ready",
+        "lastHeartbeatAt": "2026-04-12T14:30:58.562Z",
         "restartCount": 0
       }
     },
@@ -51,36 +51,34 @@
     "lastEffectError": null,
     "availableActions": [
       {
-        "kind": "open-session",
-        "label": "Open cc",
-        "eventType": null,
-        "recommendedOrder": 5,
-        "agentId": "cc",
-        "mode": null,
-        "category": "session",
-        "requiresInput": null,
-        "scope": null,
-        "metadata": null,
-        "clientOnly": false
-      },
-      {
-        "kind": "feature-stop",
-        "label": "Stop cc",
-        "eventType": null,
-        "recommendedOrder": 15,
-        "agentId": "cc",
-        "mode": null,
-        "category": "agent-control",
-        "requiresInput": null,
-        "scope": null,
-        "metadata": null,
-        "clientOnly": false
-      },
-      {
         "kind": "pause-feature",
         "label": "Pause",
         "eventType": "feature.pause",
         "recommendedOrder": 40,
+        "mode": null,
+        "category": "lifecycle",
+        "requiresInput": null,
+        "scope": null,
+        "metadata": null,
+        "clientOnly": false
+      },
+      {
+        "kind": "feature-review",
+        "label": "Review",
+        "eventType": "feature.review",
+        "recommendedOrder": 55,
+        "mode": "agent",
+        "category": "lifecycle",
+        "requiresInput": null,
+        "scope": null,
+        "metadata": null,
+        "clientOnly": false
+      },
+      {
+        "kind": "feature-close",
+        "label": "Close",
+        "eventType": "feature.close",
+        "recommendedOrder": 70,
         "mode": null,
         "category": "lifecycle",
         "requiresInput": null,
@@ -104,9 +102,9 @@
         "clientOnly": false
       }
     ],
-    "eventCount": 7,
+    "eventCount": 10,
     "createdAt": "2026-04-12T14:30:28.535Z",
-    "updatedAt": "2026-04-12T14:30:28.570Z",
+    "updatedAt": "2026-04-12T14:30:58.562Z",
     "prUrl": null,
     "prNumber": null
   },
@@ -169,6 +167,21 @@
       "type": "effect.succeeded",
       "effectId": "start.init_log_cc",
       "at": "2026-04-12T14:30:28.570Z"
+    },
+    {
+      "type": "signal.heartbeat",
+      "agentId": "cc",
+      "at": "2026-04-12T14:30:31.369Z"
+    },
+    {
+      "type": "signal.heartbeat",
+      "agentId": "cc",
+      "at": "2026-04-12T14:30:45.738Z"
+    },
+    {
+      "type": "signal.agent_ready",
+      "agentId": "cc",
+      "at": "2026-04-12T14:30:58.562Z"
     }
   ],
   "stats": {
