@@ -14,12 +14,11 @@
 | `/aigon:feature-create <name>` | Create a new feature spec |
 | `/aigon:feature-prioritise <name>` | Assign ID and move to backlog |
 | `/aigon:feature-start <ID> [agents...]` | Setup for Drive (branch) or Fleet (worktrees) |
-| `/aigon:feature-do <ID> [--autonomous]` | Implement feature; `--autonomous` runs iterative retry loop |
+| `/aigon:feature-do <ID> [--iterate]` | Implement feature; `--iterate` runs Autopilot retry loop |
 | `/aigon:feature-eval <ID>` | Create evaluation (code review or comparison) |
 | `/aigon:feature-review <ID>` | Code review with fixes by a different agent |
-| `/aigon:feature-submit` | (you must run this) Commit changes, write log, signal implementation complete |
 | `/aigon:feature-close <ID> [agent]` | Merge and complete feature |
-| `/aigon:feature-autopilot <ID> [agents...]` | Fleet autopilot: setup + spawn + monitor + eval |
+| `/aigon:feature-autonomous-start <ID> <agents...>` | Start autonomous feature flow with explicit stop-after control |
 | `/aigon:feature-cleanup <ID>` | Clean up Fleet worktrees and branches |
 
 ### Research Commands (unified for Drive and Fleet modes)
@@ -60,7 +59,7 @@ Feature and research work are NOT complete until you run these commands yourself
 1. `aigon agent-status implementing` — when you start coding or begin active research
 2. `aigon agent-status submitted` — after committing all code, log updates, or research findings
 
-These are CLI commands you run directly — not slash commands, not auto-invoked. The `aigon agent-status` command writes state to the **main repo** (not the worktree), so you won't see state files locally. Just run the command and trust the output.
+These are direct lifecycle commands you run yourself in the agent host — slash commands for some agents, skills for Codex, and never auto-invoked. The `aigon agent-status` command writes state to the **main repo** (not the worktree), so you won't see state files locally. Just run the command and trust the output.
 
 ## Critical Rules
 

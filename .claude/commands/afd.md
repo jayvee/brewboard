@@ -1,6 +1,6 @@
 ---
 description: Do feature <ID> - works in both Drive and Fleet modes (shortcut for feature-do)
-argument-hint: "<ID> [--agent=<cc|gg|cx|cu>] [--autonomous] [--max-iterations=N] [--auto-submit] [--no-auto-submit] [--dry-run]"
+argument-hint: "<ID> [--agent=<cc|cu|cx|gg>] [--iterate] [--max-iterations=N] [--auto-submit] [--no-auto-submit] [--dry-run]"
 ---
 # aigon-feature-do
 
@@ -132,8 +132,14 @@ After committing your code, run this command **immediately**:
 aigon agent-status submitted
 ```
 
-This signals to the dashboard that your work is done.
+This command **must exit successfully** before you can claim the feature is complete.
 
-Then tell the user: "Implementation complete — ready for review."
+Hard rules:
+- Implementation is **not** complete until `aigon agent-status submitted` succeeds
+- Do **not** say "done", "complete", or "ready for review" before it succeeds
+- If it fails, report the exact error output and stop for user guidance
+- Do **not** improvise with `feature-submit`, `feature-close`, or substitute commands
+
+After it succeeds, tell the user: "Implementation complete — ready for review."
 
 **STAY in the session.** The user may request changes. If they do, make the changes, commit, and say "Changes committed." Do NOT run or suggest `feature-close` — that's the user's decision. End with a brief summary of what was implemented.
