@@ -8,7 +8,7 @@
       "cc": {
         "id": "cc",
         "status": "running",
-        "lastHeartbeatAt": "2026-04-12T15:28:21.345Z",
+        "lastHeartbeatAt": "2026-04-12T15:28:47.083Z",
         "restartCount": 0
       }
     },
@@ -104,9 +104,9 @@
         "clientOnly": false
       }
     ],
-    "eventCount": 7,
+    "eventCount": 9,
     "createdAt": "2026-04-12T15:28:21.345Z",
-    "updatedAt": "2026-04-12T15:28:21.481Z",
+    "updatedAt": "2026-04-12T15:28:47.083Z",
     "prUrl": null,
     "prNumber": null
   },
@@ -169,14 +169,24 @@
       "type": "effect.succeeded",
       "effectId": "start.init_log_cc",
       "at": "2026-04-12T15:28:21.481Z"
+    },
+    {
+      "type": "signal.heartbeat",
+      "agentId": "cc",
+      "at": "2026-04-12T15:28:28.004Z"
+    },
+    {
+      "type": "signal.heartbeat",
+      "agentId": "cc",
+      "at": "2026-04-12T15:28:47.083Z"
     }
   ],
   "stats": {
-    "startedAt": "2026-04-12T15:28:21.489Z",
+    "startedAt": "2026-04-12T15:29:08.758Z",
     "mode": "solo_worktree",
     "agents": [
       "cc"
     ],
-    "updatedAt": "2026-04-12T15:28:21.518Z"
+    "updatedAt": "2026-04-12T15:29:08.762Z"
   }
 }
