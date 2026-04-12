@@ -29,7 +29,7 @@ echo "Feature branch: $FEATURE_BRANCH"
 **If you are on the feature branch**, review files directly.
 
 **If you are on main** (e.g. you cannot cd into the worktree), review using git commands:
-- `git diff main...$FEATURE_BRANCH` to see the diff
+- `git diff main..$FEATURE_BRANCH` to see the diff (two dots — only changes from this branch)
 - `git show $FEATURE_BRANCH:path/to/file` to read files from the branch
 - `git log main..$FEATURE_BRANCH --oneline` to see commits
 - Do NOT try to cd into the worktree directory — review from main using git.
@@ -58,7 +58,7 @@ Read the implementing agent's log to understand their approach and decisions:
 Examine all changes made on this branch:
 
 ```bash
-git diff main...HEAD
+git diff main..HEAD
 ```
 
 Signal review start immediately:
@@ -128,13 +128,28 @@ Add a review section to the implementation log:
 - <any observations for the user>
 ```
 
-Commit the log update:
+Commit the log update. Use the same path as Step 5 — if you're in the worktree commit directly, if you're on main use `git -C`:
 ```bash
+# If in the worktree:
 git add docs/specs/features/logs/feature-{{args}}-*-log.md
 git commit -m "docs(review): add review notes to implementation log"
+# If on main:
+WORKTREE=$(git worktree list | grep "feature-{{args}}" | awk '{print $1}')
+git -C "$WORKTREE" add docs/specs/features/logs/feature-{{args}}-*-log.md
+git -C "$WORKTREE" commit -m "docs(review): add review notes to implementation log"
 ```
 
-## Step 7: STOP - Review complete
+## Step 7: Mandatory completion order
+
+Before you report anything to the user, complete these in this order:
+
+1. Commit every code fix to the feature branch with `fix(review): ...`
+2. Update the implementation log and commit it with `docs(review): ...`
+3. Signal review completion with `aigon agent-status review-complete`
+
+Do not skip step 2 even when no code fixes were needed. The review log entry is the audit trail for the autonomous controller and the dashboard.
+
+## Step 8: STOP - Review complete
 
 **CRITICAL: Do NOT run `aigon feature-close` or `aigon feature-eval`.**
 
@@ -154,6 +169,7 @@ Then tell the user: "Code review complete. [N] fix(es) committed." (or "Code rev
 
 The user or original implementing agent should then:
 - Review the fix commits
+- In the implementer's session, run `feature-review-check <ID>` using that agent's native invocation style (slash command for cc/gg/cu, skill `$aigon-feature-review-check <ID>` for Codex) so the implementer reads the review and decides accept/challenge/modify
 - Run `/aigon:feature-close {{args}}` when ready to merge
 
 ## Tips
@@ -164,6 +180,6 @@ The user or original implementing agent should then:
 
 ## Prompt Suggestion
 
-End your response with the suggested next command on its own line. This influences Claude Code's prompt suggestion (grey text). Use the actual ID:
+End your response with the suggested next command on its own line. This helps agent UIs surface the next suggested Aigon command. Use the actual ID. The implementer should run this in their own session using that agent's native invocation style (slash command for cc/gg/cu, skill `$aigon-feature-review-check <ID>` for Codex):
 
-`/aigon:feature-close <ID>`
+`/aigon:feature-review-check <ID>`
