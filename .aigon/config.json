@@ -34,5 +34,13 @@
   },
   "instructions": {
     "rigor": "light"
+  },
+  "pro": {
+    "prWorkflow": {
+      "enabled": true
+    }
+  },
+  "devServer": {
+    "enabled": false
   }
 }
