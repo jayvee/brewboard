@@ -7,8 +7,8 @@
     "agents": {
       "cc": {
         "id": "cc",
-        "status": "running",
-        "lastHeartbeatAt": "2026-04-12T15:28:47.083Z",
+        "status": "ready",
+        "lastHeartbeatAt": "2026-04-12T15:29:25.254Z",
         "restartCount": 0
       }
     },
@@ -51,36 +51,34 @@
     "lastEffectError": null,
     "availableActions": [
       {
-        "kind": "open-session",
-        "label": "Open cc",
-        "eventType": null,
-        "recommendedOrder": 5,
-        "agentId": "cc",
-        "mode": null,
-        "category": "session",
-        "requiresInput": null,
-        "scope": null,
-        "metadata": null,
-        "clientOnly": false
-      },
-      {
-        "kind": "feature-stop",
-        "label": "Stop cc",
-        "eventType": null,
-        "recommendedOrder": 15,
-        "agentId": "cc",
-        "mode": null,
-        "category": "agent-control",
-        "requiresInput": null,
-        "scope": null,
-        "metadata": null,
-        "clientOnly": false
-      },
-      {
         "kind": "pause-feature",
         "label": "Pause",
         "eventType": "feature.pause",
         "recommendedOrder": 40,
+        "mode": null,
+        "category": "lifecycle",
+        "requiresInput": null,
+        "scope": null,
+        "metadata": null,
+        "clientOnly": false
+      },
+      {
+        "kind": "feature-review",
+        "label": "Review",
+        "eventType": "feature.review",
+        "recommendedOrder": 55,
+        "mode": "agent",
+        "category": "lifecycle",
+        "requiresInput": null,
+        "scope": null,
+        "metadata": null,
+        "clientOnly": false
+      },
+      {
+        "kind": "feature-close",
+        "label": "Close",
+        "eventType": "feature.close",
+        "recommendedOrder": 70,
         "mode": null,
         "category": "lifecycle",
         "requiresInput": null,
@@ -104,9 +102,9 @@
         "clientOnly": false
       }
     ],
-    "eventCount": 9,
+    "eventCount": 10,
     "createdAt": "2026-04-12T15:28:21.345Z",
-    "updatedAt": "2026-04-12T15:28:47.083Z",
+    "updatedAt": "2026-04-12T15:29:25.254Z",
     "prUrl": null,
     "prNumber": null
   },
@@ -179,6 +177,11 @@
       "type": "signal.heartbeat",
       "agentId": "cc",
       "at": "2026-04-12T15:28:47.083Z"
+    },
+    {
+      "type": "signal.agent_ready",
+      "agentId": "cc",
+      "at": "2026-04-12T15:29:25.254Z"
     }
   ],
   "stats": {
