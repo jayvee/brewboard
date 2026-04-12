@@ -54,7 +54,7 @@ aigon feature-spec {{args}}
 Review the single implementation:
 
 1. Read the implementation log: `./docs/specs/features/logs/feature-{{args}}-*-log.md`
-2. Review the code changes: `git diff main...feature-{{args}}-*`
+2. Review the code changes: `git diff main..feature-{{args}}-*`
 3. Check if the implementation meets the spec requirements
 4. Verify code quality, testing, documentation, security
 
@@ -65,7 +65,7 @@ Review each agent's implementation:
 1. For each agent worktree listed:
    - Read implementation log from the worktree (e.g., `../feature-{{args}}-cc-*/docs/specs/features/logs/feature-{{args}}-cc-*-log.md`)
    - **Examine the actual code changes** in each worktree
-   - Run `git diff main...HEAD` in each worktree to see all changes
+   - Run `git diff main..HEAD` in each worktree to see all changes
    - Check spec compliance
 
 2. **Worktree locations:** `../feature-{{args}}-<agent>-*`
@@ -152,7 +152,7 @@ After completing the evaluation:
 
 1. Present a summary of your comparison to the user
 2. Show the scores/comparison
-3. State your recommendation clearly (e.g., "Merge cc's implementation")
+3. State your recommendation clearly — update `**Winner:**` in the eval file with the winning agent code (e.g., `**Winner:** cc (Claude) — rationale`)
 4. **Explicitly address cross-pollination:** After naming the winner, you MUST state one of:
    - **If there are aspects worth adopting:** "Before merging, consider adopting from `<agent>`: `<specific aspect>`" — be concrete about what to take and from which implementation.
    - **If there is nothing worth adopting:** "The other implementations don't have particular features or aspects worth adopting beyond what the winner already provides."
@@ -172,7 +172,7 @@ For example: `/aigon:feature-close {{args}} cc` if Claude's implementation wins.
 
 ## Prompt Suggestion
 
-End your response with the suggested next command on its own line. This influences Claude Code's prompt suggestion (grey text). Use the actual ID:
+End your response with the suggested next command on its own line. This helps agent UIs surface the next suggested Aigon command. Use the actual ID:
 
 - **Drive mode:** `/aigon:feature-close <ID>`
 - **Fleet mode:** `/aigon:feature-close <ID> <winning-agent>`
