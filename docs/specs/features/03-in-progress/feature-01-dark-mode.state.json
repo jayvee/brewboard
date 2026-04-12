@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "featureId": "01",
-    "lifecycle": "implementing",
+    "lifecycle": "done",
     "mode": "solo_worktree",
     "winnerAgentId": null,
     "agents": {
@@ -17,8 +17,8 @@
       "email": "johnpviner@gmail.com",
       "at": "2026-04-12T14:30:28.534Z"
     },
-    "currentSpecState": "implementing",
-    "specPath": "/Users/jviner/src/brewboard/docs/specs/features/03-in-progress/feature-01-dark-mode.md",
+    "currentSpecState": "done",
+    "specPath": "/Users/jviner/src/brewboard/docs/specs/features/05-done/feature-01-dark-mode.md",
     "effects": [
       {
         "id": "start.move_spec",
@@ -46,65 +46,38 @@
         "claimExpiredAt": null,
         "reclaimCount": 0,
         "lastError": null
+      },
+      {
+        "id": "close.move_spec_to_done",
+        "type": "move_spec",
+        "payload": {
+          "fromPath": "/Users/jviner/src/brewboard/docs/specs/features/05-done/feature-01-dark-mode.md",
+          "toPath": "/Users/jviner/src/brewboard/docs/specs/features/05-done/feature-01-dark-mode.md"
+        },
+        "status": "succeeded",
+        "claimedAt": null,
+        "claimExpiredAt": null,
+        "reclaimCount": 0,
+        "lastError": null
+      },
+      {
+        "id": "close.write_close_note",
+        "type": "write_close_note",
+        "payload": {
+          "winnerAgentId": ""
+        },
+        "status": "succeeded",
+        "claimedAt": null,
+        "claimExpiredAt": null,
+        "reclaimCount": 0,
+        "lastError": null
       }
     ],
     "lastEffectError": null,
-    "availableActions": [
-      {
-        "kind": "pause-feature",
-        "label": "Pause",
-        "eventType": "feature.pause",
-        "recommendedOrder": 40,
-        "mode": null,
-        "category": "lifecycle",
-        "requiresInput": null,
-        "scope": null,
-        "metadata": null,
-        "clientOnly": false
-      },
-      {
-        "kind": "feature-review",
-        "label": "Review",
-        "eventType": "feature.review",
-        "recommendedOrder": 55,
-        "mode": "agent",
-        "category": "lifecycle",
-        "requiresInput": null,
-        "scope": null,
-        "metadata": null,
-        "clientOnly": false
-      },
-      {
-        "kind": "feature-close",
-        "label": "Close",
-        "eventType": "feature.close",
-        "recommendedOrder": 70,
-        "mode": null,
-        "category": "lifecycle",
-        "requiresInput": null,
-        "scope": null,
-        "metadata": null,
-        "clientOnly": false
-      },
-      {
-        "kind": "feature-reset",
-        "label": "Reset",
-        "eventType": null,
-        "recommendedOrder": 120,
-        "mode": null,
-        "category": "lifecycle",
-        "requiresInput": null,
-        "scope": null,
-        "metadata": {
-          "destructive": true,
-          "confirmationMessage": "Kill tmux sessions, remove the worktree and branch (including any uncommitted work on the branch), clear engine state, and move the spec back to Backlog. This cannot be undone."
-        },
-        "clientOnly": false
-      }
-    ],
-    "eventCount": 10,
+    "availableActions": [],
+    "eventCount": 18,
     "createdAt": "2026-04-12T14:30:28.535Z",
-    "updatedAt": "2026-04-12T14:30:58.562Z",
+    "updatedAt": "2026-04-12T14:37:04.457Z",
     "prUrl": null,
     "prNumber": null
   },
@@ -182,6 +155,57 @@
       "type": "signal.agent_ready",
       "agentId": "cc",
       "at": "2026-04-12T14:30:58.562Z"
+    },
+    {
+      "type": "feature.close_requested",
+      "at": "2026-04-12T14:37:04.418Z"
+    },
+    {
+      "type": "effect.requested",
+      "effect": {
+        "id": "close.move_spec_to_done",
+        "type": "move_spec",
+        "payload": {
+          "fromPath": "/Users/jviner/src/brewboard/docs/specs/features/03-in-progress/feature-01-dark-mode.md",
+          "toPath": "/Users/jviner/src/brewboard/docs/specs/features/05-done/feature-01-dark-mode.md"
+        }
+      },
+      "at": "2026-04-12T14:37:04.418Z"
+    },
+    {
+      "type": "effect.requested",
+      "effect": {
+        "id": "close.write_close_note",
+        "type": "write_close_note",
+        "payload": {
+          "winnerAgentId": ""
+        }
+      },
+      "at": "2026-04-12T14:37:04.418Z"
+    },
+    {
+      "type": "effect.claimed",
+      "effectId": "close.move_spec_to_done",
+      "at": "2026-04-12T14:37:04.437Z"
+    },
+    {
+      "type": "effect.succeeded",
+      "effectId": "close.move_spec_to_done",
+      "at": "2026-04-12T14:37:04.444Z"
+    },
+    {
+      "type": "effect.claimed",
+      "effectId": "close.write_close_note",
+      "at": "2026-04-12T14:37:04.448Z"
+    },
+    {
+      "type": "effect.succeeded",
+      "effectId": "close.write_close_note",
+      "at": "2026-04-12T14:37:04.455Z"
+    },
+    {
+      "type": "feature.closed",
+      "at": "2026-04-12T14:37:04.457Z"
     }
   ],
   "stats": {
@@ -190,6 +214,42 @@
     "agents": [
       "cc"
     ],
-    "updatedAt": "2026-04-12T14:30:28.577Z"
+    "updatedAt": "2026-04-12T14:37:04.406Z",
+    "completedAt": "2026-04-12T14:37:04.222Z",
+    "durationMs": 395646,
+    "commitCount": 3,
+    "filesChanged": 8,
+    "linesAdded": 121,
+    "linesRemoved": 35,
+    "lastCommitAt": "2026-04-13T00:31:09+10:00",
+    "lastCommitMessage": "feat: add dark mode toggle with OS preference and localStorage persistence",
+    "cost": {
+      "inputTokens": 128,
+      "cachedInputTokens": 1997433,
+      "freshInputTokens": 0,
+      "outputTokens": 13233,
+      "thinkingTokens": 0,
+      "totalTokens": 2134285,
+      "billableTokens": 13361,
+      "estimatedUsd": 1.2613,
+      "model": "claude-sonnet-4-6",
+      "sessions": 1,
+      "costByAgent": {
+        "cc": {
+          "agent": "cc",
+          "model": "claude-sonnet-4-6",
+          "inputTokens": 128,
+          "cachedInputTokens": 1997433,
+          "freshInputTokens": 0,
+          "outputTokens": 13233,
+          "thinkingTokens": 0,
+          "totalTokens": 2134285,
+          "billableTokens": 13361,
+          "costUsd": 1.2613,
+          "sessions": 1,
+          "hasRealData": true
+        }
+      }
+    }
   }
 }
