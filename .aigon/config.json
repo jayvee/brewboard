@@ -35,11 +35,7 @@
   "instructions": {
     "rigor": "light"
   },
-  "pro": {
-    "prWorkflow": {
-      "enabled": true
-    }
-  },
+  "honourRemoteBranchGate": true,
   "devServer": {
     "enabled": false
   }
