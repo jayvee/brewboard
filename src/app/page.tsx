@@ -1,4 +1,5 @@
 import { BeerCard } from '@/components/BeerCard';
+import { FeaturedBeer } from '@/components/featured-beer';
 
 const BEERS = [
   { id: 1, name: 'Hazy IPA', brewery: 'Mountain Goat', style: 'IPA', rating: 4.5 },
@@ -9,6 +10,10 @@ const BEERS = [
   { id: 6, name: 'West Coast IPA', brewery: 'Hop Nation', style: 'IPA', rating: 4.3 },
 ];
 
+const featuredBeer = BEERS.reduce((best, beer) =>
+  beer.rating > best.rating ? beer : best
+);
+
 export default function Home() {
   return (
     <main className="max-w-4xl mx-auto p-8">
@@ -16,6 +21,13 @@ export default function Home() {
         <h1 className="text-4xl font-bold text-stone-900">BrewBoard</h1>
         <p className="text-stone-500 mt-2">Your craft beer collection</p>
       </header>
+      <FeaturedBeer
+        name={featuredBeer.name}
+        brewery={featuredBeer.brewery}
+        style={featuredBeer.style}
+        rating={featuredBeer.rating}
+        tagline="Beer of the Day"
+      />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {BEERS.map(beer => (
           <BeerCard key={beer.id} {...beer} />

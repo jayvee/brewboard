@@ -5,4 +5,6 @@ Agent: cu
 
 ## Progress
 
+Implemented Featured Beer Hero.
+
 ## Decisions
