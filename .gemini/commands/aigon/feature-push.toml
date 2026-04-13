@@ -1,0 +1,15 @@
+name = "feature-push"
+description = "Push feature branch to origin for PR creation"
+prompt = '''
+# aigon-feature-push
+
+Push the current feature branch to `origin` with upstream tracking, making it available for pull request creation on GitHub.
+
+This command does not alter workflow state, move specs, merge anything, or call `agent-status`. It is a simple `git push -u origin <branch>`.
+
+## Run
+
+```bash
+aigon feature-push $ARGUMENTS
+```
+'''

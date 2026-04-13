@@ -19,12 +19,7 @@ git branch --show-current
 
 Extract the feature ID and agent code from the branch name (pattern: `feature-<ID>-<agent>-<description>`).
 
-## Step 2: Stop the dev server
 
-If a dev server is running in this session, stop it now:
-```bash
-aigon dev-server stop 2>/dev/null || true
-```
 
 ## Check documentation is up to date
 
