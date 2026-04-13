@@ -35,6 +35,7 @@
   "instructions": {
     "rigor": "light"
   },
+  "honourRemoteBranchGate": true,
   "devServer": {
     "enabled": false
   }

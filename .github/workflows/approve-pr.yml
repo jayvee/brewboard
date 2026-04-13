@@ -1,0 +1,20 @@
+name: Approve PR
+on:
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: PR number to approve
+        required: true
+permissions:
+  pull-requests: write
+jobs:
+  approve:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Approve
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api repos/${{ github.repository }}/pulls/${{ inputs.pr_number }}/reviews \
+            -f event="APPROVE" \
+            -f body="Approved for gate test"

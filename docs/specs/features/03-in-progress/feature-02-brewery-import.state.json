@@ -1,0 +1,182 @@
+{
+  "snapshot": {
+    "featureId": "02",
+    "lifecycle": "implementing",
+    "mode": "solo_worktree",
+    "winnerAgentId": null,
+    "agents": {
+      "cc": {
+        "id": "cc",
+        "status": "running",
+        "lastHeartbeatAt": "2026-04-12T23:40:04.651Z",
+        "restartCount": 0
+      }
+    },
+    "assignee": {
+      "name": "John Viner",
+      "email": "johnpviner@gmail.com",
+      "at": "2026-04-12T23:40:04.650Z"
+    },
+    "currentSpecState": "implementing",
+    "specPath": "/Users/jviner/src/brewboard/docs/specs/features/03-in-progress/feature-02-brewery-import.md",
+    "effects": [
+      {
+        "id": "start.move_spec",
+        "type": "move_spec",
+        "payload": {
+          "fromPath": "/Users/jviner/src/brewboard/docs/specs/features/02-backlog/feature-02-brewery-import.md",
+          "toPath": "/Users/jviner/src/brewboard/docs/specs/features/03-in-progress/feature-02-brewery-import.md"
+        },
+        "status": "succeeded",
+        "claimedAt": null,
+        "claimExpiredAt": null,
+        "reclaimCount": 0,
+        "lastError": null
+      },
+      {
+        "id": "start.init_log_cc",
+        "type": "init_log",
+        "payload": {
+          "agentId": "cc",
+          "num": "02",
+          "desc": "brewery-import"
+        },
+        "status": "succeeded",
+        "claimedAt": null,
+        "claimExpiredAt": null,
+        "reclaimCount": 0,
+        "lastError": null
+      }
+    ],
+    "lastEffectError": null,
+    "availableActions": [
+      {
+        "kind": "open-session",
+        "label": "Open cc",
+        "eventType": null,
+        "recommendedOrder": 5,
+        "agentId": "cc",
+        "mode": null,
+        "category": "session",
+        "requiresInput": null,
+        "scope": null,
+        "metadata": null,
+        "clientOnly": false
+      },
+      {
+        "kind": "feature-stop",
+        "label": "Stop cc",
+        "eventType": null,
+        "recommendedOrder": 15,
+        "agentId": "cc",
+        "mode": null,
+        "category": "agent-control",
+        "requiresInput": null,
+        "scope": null,
+        "metadata": null,
+        "clientOnly": false
+      },
+      {
+        "kind": "pause-feature",
+        "label": "Pause",
+        "eventType": "feature.pause",
+        "recommendedOrder": 40,
+        "mode": null,
+        "category": "lifecycle",
+        "requiresInput": null,
+        "scope": null,
+        "metadata": null,
+        "clientOnly": false
+      },
+      {
+        "kind": "feature-reset",
+        "label": "Reset",
+        "eventType": null,
+        "recommendedOrder": 120,
+        "mode": null,
+        "category": "lifecycle",
+        "requiresInput": null,
+        "scope": null,
+        "metadata": {
+          "destructive": true,
+          "confirmationMessage": "Kill tmux sessions, remove the worktree and branch (including any uncommitted work on the branch), clear engine state, and move the spec back to Backlog. This cannot be undone."
+        },
+        "clientOnly": false
+      }
+    ],
+    "eventCount": 7,
+    "createdAt": "2026-04-12T23:40:04.651Z",
+    "updatedAt": "2026-04-12T23:40:04.692Z",
+    "prUrl": null,
+    "prNumber": null
+  },
+  "events": [
+    {
+      "type": "feature.started",
+      "featureId": "02",
+      "mode": "solo_worktree",
+      "agents": [
+        "cc"
+      ],
+      "assignee": {
+        "name": "John Viner",
+        "email": "johnpviner@gmail.com",
+        "at": "2026-04-12T23:40:04.650Z"
+      },
+      "at": "2026-04-12T23:40:04.651Z"
+    },
+    {
+      "type": "effect.requested",
+      "effect": {
+        "id": "start.move_spec",
+        "type": "move_spec",
+        "payload": {
+          "fromPath": "/Users/jviner/src/brewboard/docs/specs/features/02-backlog/feature-02-brewery-import.md",
+          "toPath": "/Users/jviner/src/brewboard/docs/specs/features/03-in-progress/feature-02-brewery-import.md"
+        }
+      },
+      "at": "2026-04-12T23:40:04.665Z"
+    },
+    {
+      "type": "effect.requested",
+      "effect": {
+        "id": "start.init_log_cc",
+        "type": "init_log",
+        "payload": {
+          "agentId": "cc",
+          "num": "02",
+          "desc": "brewery-import"
+        }
+      },
+      "at": "2026-04-12T23:40:04.665Z"
+    },
+    {
+      "type": "effect.claimed",
+      "effectId": "start.move_spec",
+      "at": "2026-04-12T23:40:04.672Z"
+    },
+    {
+      "type": "effect.succeeded",
+      "effectId": "start.move_spec",
+      "at": "2026-04-12T23:40:04.682Z"
+    },
+    {
+      "type": "effect.claimed",
+      "effectId": "start.init_log_cc",
+      "at": "2026-04-12T23:40:04.687Z"
+    },
+    {
+      "type": "effect.succeeded",
+      "effectId": "start.init_log_cc",
+      "at": "2026-04-12T23:40:04.692Z"
+    }
+  ],
+  "stats": {
+    "startedAt": "2026-04-12T23:40:04.705Z",
+    "mode": "solo_worktree",
+    "agents": [
+      "cc"
+    ],
+    "updatedAt": "2026-04-12T23:40:04.706Z"
+  }
+}
