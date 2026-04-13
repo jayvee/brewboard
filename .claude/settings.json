@@ -17,12 +17,12 @@
         "hooks": [
           {
             "type": "command",
-            "command": "aigon check-version",
+            "command": "/opt/homebrew/bin/aigon check-version",
             "timeout": 30
           },
           {
             "type": "command",
-            "command": "aigon project-context",
+            "command": "/opt/homebrew/bin/aigon project-context",
             "timeout": 10
           }
         ]
@@ -34,7 +34,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "aigon capture-session-telemetry",
+            "command": "/opt/homebrew/bin/aigon capture-session-telemetry",
             "timeout": 30
           }
         ]
@@ -46,7 +46,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "aigon check-agent-submitted",
+            "command": "/opt/homebrew/bin/aigon check-agent-submitted",
             "timeout": 5
           }
         ]
