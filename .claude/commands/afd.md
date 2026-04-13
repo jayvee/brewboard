@@ -1,6 +1,6 @@
 ---
 description: Do feature <ID> - works in both Drive and Fleet modes (shortcut for feature-do)
-argument-hint: "<ID> [--agent=<cc|cu|cx|gg>] [--iterate] [--max-iterations=N] [--auto-submit] [--no-auto-submit] [--dry-run]"
+argument-hint: "<ID> [--agent=<cc|gg|cx|cu>] [--iterate] [--max-iterations=N] [--auto-submit] [--no-auto-submit] [--dry-run]"
 ---
 # aigon-feature-do
 
