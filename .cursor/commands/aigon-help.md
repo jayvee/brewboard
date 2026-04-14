@@ -14,6 +14,7 @@
 | `/aigon-feature-eval <ID>` | Create evaluation (code review or comparison) |
 | `/aigon-feature-review <ID>` | Code review with fixes by a different agent |
 | `/aigon-feature-review-check [ID]` | Implementer-side: read the review and decide accept/challenge/modify (infers ID from worktree branch) |
+| `/aigon-feature-push [ID] [agent]` | Push feature branch to origin for PR review |
 | `/aigon-feature-close <ID> [agent]` | Merge and complete feature |
 | `/aigon-feature-cleanup <ID>` | Clean up Fleet worktrees and branches |
 | `/aigon-feature-autonomous-start <ID> <agents...>` | Start autonomous feature flow with explicit stop-after control |
@@ -48,12 +49,12 @@
 
 ### Agent CLI Mappings (used by feature-open)
 
-| Code | Agent | Command |
-|------|-------|---------|
-| cc | Claude Code | `claude --permission-mode acceptEdits` |
-| gg | Gemini | `gemini --yolo` |
-| cx | Codex | `codex` |
-| cu | Cursor | `agent --force` |
+| Code | Agent | Command | Mode |
+|------|-------|---------|------|
+| cc | Claude Code | `claude --permission-mode acceptEdits` | Auto-edits, prompts for risky Bash |
+| cu | Cursor | `agent --force` | Auto-approves commands (yolo mode) |
+| gg | Gemini | `gemini --yolo` | Auto-approves all |
+| cx | Codex | `codex --full-auto` | Workspace-write, smart approval |
 
 **Quick-allow when prompted:** Claude `Shift+Tab` • Gemini `2` for always • Cursor "Add to allowlist" • Codex "Allow and remember"
 

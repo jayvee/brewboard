@@ -1,6 +1,6 @@
 ---
 description: Do feature <ID> - works in both Drive and Fleet modes
-argument-hint: "<ID> [--agent=<cc|cu|cx|gg>] [--iterate] [--max-iterations=N] [--auto-submit] [--no-auto-submit] [--dry-run]"
+argument-hint: "<ID> [--agent=<cc|gg|cx|cu>] [--iterate] [--max-iterations=N] [--auto-submit] [--no-auto-submit] [--dry-run]"
 ---
 # aigon-feature-do
 
@@ -108,19 +108,13 @@ Stage and commit your code changes using conventional commits (`feat:`, `fix:`, 
 
 
 
-## Step 4: Start the dev server
-
-Run `aigon dev-server start` to start the project dev server. Use the URL printed to verify your changes. **Never run `npm run dev` directly** — it bypasses port allocation.
 
 
 
 
 
-## Step 6.5: Start the dev server
 
-**You MUST start the dev server before signalling completion.** The evaluator and user need a running preview of your implementation.
 
-Start the dev server and leave it running.
 
 ## Step 5: Signal completion
 
@@ -138,7 +132,7 @@ Hard rules:
 - Implementation is **not** complete until `aigon agent-status submitted` succeeds
 - Do **not** say "done", "complete", or "ready for review" before it succeeds
 - If it fails, report the exact error output and stop for user guidance
-- Do **not** improvise with `feature-submit`, `feature-close`, or substitute commands
+- Do **not** improvise with `feature-close` or substitute commands
 
 After it succeeds, tell the user: "Implementation complete — ready for review."
 
