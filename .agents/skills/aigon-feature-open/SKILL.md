@@ -19,12 +19,12 @@ $aigon-feature-open [feature-id] [agent-code]
 
 ## Agent Mappings
 
-| Code | Agent | Command |
-|------|-------|---------|
-| cc | Claude Code | `claude --permission-mode acceptEdits` |
-| gg | Gemini | `gemini --yolo` |
-| cx | Codex | `codex` |
-| cu | Cursor | `agent --force` |
+| Code | Agent | Command | Mode |
+|------|-------|---------|------|
+| cc | Claude Code | `claude --permission-mode acceptEdits` | Auto-edits, prompts for risky Bash |
+| cu | Cursor | `agent --force` | Auto-approves commands (yolo mode) |
+| gg | Gemini | `gemini --yolo` | Auto-approves all |
+| cx | Codex | `codex --full-auto` | Workspace-write, smart approval |
 
 Safe in worktrees since you can always `git reset --hard`.
 

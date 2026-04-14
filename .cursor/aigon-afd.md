@@ -104,19 +104,13 @@ Stage and commit your code changes using conventional commits (`feat:`, `fix:`, 
 
 
 
-## Step 4: Start the dev server
-
-Run `aigon dev-server start` to start the project dev server. Use the URL printed to verify your changes. **Never run `npm run dev` directly** — it bypasses port allocation.
 
 
 
 
 
-## Step 6.5: Start the dev server
 
-**You MUST start the dev server before signalling completion.** The evaluator and user need a running preview of your implementation.
 
-Start the dev server and leave it running.
 
 ## Step 5: Signal completion
 

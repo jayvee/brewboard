@@ -1,3 +1,8 @@
+---
+name: aigon-feature-submit
+description: Submit feature implementation - commit changes, write log, signal done
+---
+
 # aigon-feature-submit
 
 Wrap up implementation in the current worktree or branch: commit all changes, write the implementation log, and signal readiness for evaluation.
