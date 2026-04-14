@@ -162,7 +162,8 @@ Use `--push` if you want to preserve the alternative implementations on the remo
 - **Do NOT run from a worktree**: Always run from the main repository
 - The command uses `--no-ff` merge to preserve feature history
 - Alternative implementations are preserved in `logs/alternatives/` for future reference
-- **Drive mode auto-commit**: If you run `feature-close` while on the feature branch with uncommitted changes, the CLI auto-commits them before proceeding. This is the drive-mode equivalent of `feature-submit`.
+- **Drive mode auto-commit**: If you run `feature-close` while on the feature branch with uncommitted changes, the CLI auto-commits them before proceeding. This is the drive-mode equivalent of the worktree submission flow.
+- **Remote branch gate**: If `honourRemoteBranchGate` is enabled in `.aigon/config.json`, close checks that the branch has an open, non-draft, mergeable PR on GitHub before proceeding. Push the branch first with `$aigon-feature-push $1`. Do **not** merge the PR on GitHub before running close — v1 does not support remote-merged PRs.
 
 ## Update Documentation
 
