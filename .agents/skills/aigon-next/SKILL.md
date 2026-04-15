@@ -29,10 +29,10 @@ Extract context from the branch name using the pattern `feature-<ID>-<agent>-<de
 
 - **Type**: `feature` or `research`
 - **ID**: numeric ID (e.g., `25`)
-- **Agent**: agent code (e.g., `cc`, `cu`, `cx`, `gg`) — if absent, this is a Drive branch
+- **Agent**: agent code (e.g., `cc`, `gg`, `cx`, `cu`) — if absent, this is a Drive branch
 - **Description**: slug description
 
-**Drive vs worktree**: if the agent segment is one of `cc`, `cu`, `cx`, `gg`, this is a Fleet worktree branch — `feature-do` runs automatically on open and must NOT be suggested. If the agent segment is absent (branch is `feature-<ID>-<description>`), this is a Drive branch — `feature-do` must be run manually.
+**Drive vs worktree**: if the agent segment is one of `cc`, `gg`, `cx`, `cu`, this is a Fleet worktree branch — `feature-do` runs automatically on open and must NOT be suggested. If the agent segment is absent (branch is `feature-<ID>-<description>`), this is a Drive branch — `feature-do` must be run manually.
 
 If the branch is `main` (or `master`), skip to **Path D: Main branch**.
 
