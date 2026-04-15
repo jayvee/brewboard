@@ -21,7 +21,12 @@ export function ThemeToggle() {
   }
 
   return (
-    <button onClick={toggle} aria-label="Toggle dark mode">
+    <button
+      type="button"
+      onClick={toggle}
+      aria-label="Toggle dark mode"
+      className="fixed right-4 top-4 rounded-full border border-stone-300 bg-white px-3 py-2 text-xl leading-none shadow-sm transition-colors dark:border-stone-700 dark:bg-stone-900"
+    >
       {dark ? '☀️' : '🌙'}
     </button>
   );
