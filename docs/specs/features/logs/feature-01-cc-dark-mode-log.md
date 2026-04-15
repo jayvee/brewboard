@@ -1,3 +1,26 @@
+---
+commit_count: 4
+lines_added: 172
+lines_removed: 2
+lines_changed: 174
+files_touched: 7
+fix_commit_count: 1
+fix_commit_ratio: 0.25
+rework_thrashing: false
+rework_fix_cascade: false
+rework_scope_creep: true
+input_tokens: 11521
+output_tokens: 275063
+cache_creation_input_tokens: 10738926
+cache_read_input_tokens: 138584947
+thinking_tokens: 0
+total_tokens: 149610457
+billable_tokens: 286584
+cost_usd: 57.1515
+sessions: 102
+model: "claude-sonnet-4-6"
+tokens_per_line_changed: null
+---
 # Implementation Log: Feature 01 - dark-mode
 Agent: cc
 
