@@ -1,0 +1,10 @@
+[2026-04-28T06:46:56.026Z] Starting migration to 2.61.0
+[2026-04-28T06:46:56.026Z] Entities before: features=10, research=3, feedback=4
+[2026-04-28T06:46:56.027Z] Creating backup of .aigon/workflows/
+[2026-04-28T06:46:56.220Z] Backup created successfully
+[2026-04-28T06:46:56.220Z] Running migration function
+[2026-04-28T06:46:57.046Z] migrate_initialize_install_manifest: wrote manifest with 205 entries
+[2026-04-28T06:46:57.046Z] Migration function completed
+[2026-04-28T06:46:57.046Z] Validating state files
+[2026-04-28T06:46:57.053Z] Validation passed
+[2026-04-28T06:46:57.059Z] Migration completed successfully

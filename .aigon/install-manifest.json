@@ -1,0 +1,1236 @@
+{
+  "version": "1.0",
+  "aigonVersion": "2.61.0",
+  "files": [
+    {
+      "path": ".aigon/docs/agents/claude.md",
+      "sha256": "3bf2339a67a800163ece7cb0596c7e2b4b1c2f4e2ab72d356df30481339348bd",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".aigon/docs/agents/codex.md",
+      "sha256": "6eb464f38b3e78a83210a6b344c6fc6330263f4ac9992c5e7dfe484e44ca571c",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".aigon/docs/agents/cursor.md",
+      "sha256": "95798ea970c5e2dfea794fe44fb4d297e4f3c8f279791b44b265aad0345598a2",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".aigon/docs/agents/gemini.md",
+      "sha256": "74a4e4d7ce110fbe9df6a156a708761457e124234a06cbba0ad6b87a2aed5cb3",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".aigon/docs/agents/kimi.md",
+      "sha256": "b798c0a921405a1c87e0fd00dc239be1e571e1f7ed9bc419b83d32a09fc425ae",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".aigon/docs/agents/opencode.md",
+      "sha256": "667e280726791add7a093e605330486343a1d6c2a45f16c69152c68b32a2234a",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".aigon/docs/development_workflow.md",
+      "sha256": "6205c138013c7f3af9cd9065a9bef8e2df40726dbe197846a0c01c01e9a2d535",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".aigon/docs/feature-sets.md",
+      "sha256": "670ddb51aed288d3cff821bf10ccdbc8be53b966de2b6b9d378eab2b9138df0c",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-board/SKILL.md",
+      "sha256": "685002ee47bc40502651cfbc8cbeec78420aa2fc694284f726ae3bddf34dbb80",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-dev-server/SKILL.md",
+      "sha256": "3ff1b9fa0a8ddb7ab171012d744246f8e3835f9e32d464e2007495f1579de56c",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-feature-autonomous-start/SKILL.md",
+      "sha256": "c174cb6286ac418d3810ce47e003714a4b03bb0a4bfec89f2d585127bdc52976",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-feature-cleanup/SKILL.md",
+      "sha256": "2a690132ea7ee963ae73734ca8fa157eb06d5f6b202e0bc65680f1024bc0d200",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-feature-close/SKILL.md",
+      "sha256": "f5cd1dba7dc4fb5ccc562b143c4f53d843191380a503a69ea356d4d4e7ecfbd4",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-feature-code-review/SKILL.md",
+      "sha256": "561b0a74a9070a00071e1dbfbd57b4935dafbd42ba570630af3c1e0654ed85f7",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-feature-code-revise/SKILL.md",
+      "sha256": "2cb20d56dfcc16408f917c93f2aab71085e816a10efdea62cf7b204b22fa30b5",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-feature-create/SKILL.md",
+      "sha256": "52bf4b9a9894500275d251c9435d53573d19ac60f1ff60de43bd30fff9c6024b",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-feature-do/SKILL.md",
+      "sha256": "a9e421b6a3e3c032057f968dc3c1bf17ce9644b80acf710f6f4c0e42af668a74",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-feature-eval/SKILL.md",
+      "sha256": "cbb84745a0dcce896d3952d6c4396eabe338a15722fcd63ada0b8d155946e653",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-feature-now/SKILL.md",
+      "sha256": "b785dfc40218156b49ac8a5cb74c99ed35cb4eeca7ee83c4f066f0544278c96f",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-feature-open/SKILL.md",
+      "sha256": "3a07b84728942b856645b97b8cdc76ea8ee4884c922d2a160ec05b179d79f926",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-feature-prioritise/SKILL.md",
+      "sha256": "331ac57bb7a773d08bca77769bbea6758c49d436df7c57b975f12ca0a9ed42f3",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-feature-push/SKILL.md",
+      "sha256": "cb9b5ae70dc908ffcec364fce91d8c9fb1e188320f96e6c9514c0c630c359b7f",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-feature-reset/SKILL.md",
+      "sha256": "33f1f0ea08b021567fc0c6828ce90a4c7d03bfa1a1079f7798598be8c2009e37",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-feature-review/SKILL.md",
+      "sha256": "b6aeeea2d0604f5941055851a815db9209d3aa5b2624c70ac1970f3e086fb777",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-feature-spec-review/SKILL.md",
+      "sha256": "ab0ade0abcc82e2c9497e1c4f4d95f37e6c573e90763e0e63a1d4be9af43ce64",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-feature-spec-revise/SKILL.md",
+      "sha256": "f17bf0f93f4e44e1e9b721a2253c2f0c6b1f690dac19fd01440fffe8d79f19b4",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-feature-start/SKILL.md",
+      "sha256": "023929007462261693a4b32e49deb555a98981f66c0eb05cdd0fec1e362590aa",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-feature-transfer/SKILL.md",
+      "sha256": "972033be5143baf1e8400338050aa86c16af36a244e2a22e9477528c37eb0127",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-feature-unprioritise/SKILL.md",
+      "sha256": "7ee0a05b10d3580e7ac855fda81ec7034509ab6f9dd0334c3ed877eb02e0ff7d",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-feedback-create/SKILL.md",
+      "sha256": "739b8471774393921adb8f11d8d2376679418e7bc8acb081f5d45308815d159c",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-feedback-list/SKILL.md",
+      "sha256": "926b9944057d0835ed740b8aebd94706ec547e9c7c2a94d5882822f904ded684",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-feedback-triage/SKILL.md",
+      "sha256": "c81a80f208cc766dc5718e9f90cf422bcb8e8a1ae15722b33f7a4517259befe1",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-help/SKILL.md",
+      "sha256": "6ce6590ebe91f5cbd5b2a2c03bd46046c8c7ec5f9e643ffff2545a2f218334a8",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-next/SKILL.md",
+      "sha256": "6762b8940a60808f98035c292b306dbbba7ba2907e799755cb3fffaf3be0cde1",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-research-autopilot/SKILL.md",
+      "sha256": "3ee91fdf4a4bc78a248219f137e2ddf516f10d2d5d241c2ea71d5f21e297d770",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-research-close/SKILL.md",
+      "sha256": "15df5d1e6bda8f550200c496a7fcf39e5ffcbd902836a5b85a19aad5b34e36ad",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-research-create/SKILL.md",
+      "sha256": "9de791e07008b4d4558f5a85a73f56f492d422044d8577e27b274739af950afd",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-research-do/SKILL.md",
+      "sha256": "2a9438ccac09004ce340fc49dd58d4101fcb25f2da573d608f68f5d1a00194a1",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-research-eval/SKILL.md",
+      "sha256": "3a31a9382f960414f61ffaccdfe5afa2574908bebfc2ac368fae9eddf38f27c6",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-research-open/SKILL.md",
+      "sha256": "ebb3b980c7bed316ce16e03efeba0f8f13ad9c9525bec820d5e3989d95c03e33",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-research-prioritise/SKILL.md",
+      "sha256": "032e0b648d42927cbe135456af8bda7902e6930bccad6f03edcbd3eba9538235",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-research-reset/SKILL.md",
+      "sha256": "2cd8467d860213bc89c02178ab78ae241d7fd493257ca63ac1b44d282ed8a04e",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-research-spec-review/SKILL.md",
+      "sha256": "e3db3e409fe64ace7abab5357475c0ddbe37488abcdc2dd34f75cc530451861c",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-research-spec-revise/SKILL.md",
+      "sha256": "d35219c0686d2fbc584397f4953006ea7a8d37ac82ecdd92e5a2ab691bd187fe",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-research-start/SKILL.md",
+      "sha256": "d14fd61b4ec2245bada22f334d36071aca1b8e63f22f4bf7484c928e93afe5f9",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-research-unprioritise/SKILL.md",
+      "sha256": "425074a3366b77895703f65d9e265549e89f01ad948f3c51793a42afcd0bd9bc",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-sessions-close/SKILL.md",
+      "sha256": "3910f54ea33eb55a8ed62b48bd5cfcb5d9ce6e36f6946f942fc8e1b37ca4bdce",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".agents/skills/aigon-set-prioritise/SKILL.md",
+      "sha256": "fbfdedc6f8174ebe77d9f44b75ede35113b2644473db6646b10bf0fa74e6e313",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/board.md",
+      "sha256": "b561869dfa8ba9e84a17a9b319cfc3b50c5200814f8265a295e57bbcb8cddec7",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/dev-server.md",
+      "sha256": "e4ac0e73834f65567ab08638b8e7e203a657165035f3e47154c58af3e97b9d38",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/feature-autonomous-start.md",
+      "sha256": "b3d7e19547197985941e468ac250cd454e70ec6ce2f4e28b47e2e0488c9cb2d3",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/feature-cleanup.md",
+      "sha256": "d01d6dd07c8d32986cedb52c06138123fb9a832365cd629ab61082b4625caf9e",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/feature-close.md",
+      "sha256": "f1b3786823509453cae5581c98caed1fd79be5128fb6d2bfa5373a5bf3f4237b",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/feature-code-review.md",
+      "sha256": "77edac54dbb4038b302040a04b350feddde1d6af08c3e603d276cf8da520e66a",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/feature-code-revise.md",
+      "sha256": "9b613728b60cbe22559b3c7e78df316e1051e0c050e7b479f8b190049238c9b0",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/feature-create.md",
+      "sha256": "f226759402da28e81c3b088428af67b121577fa8c771c865bc3b62207e661e05",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/feature-do.md",
+      "sha256": "de08d91595cbe1fc8fa4aeb60e15846a3f16ad2c9e5e37c75868e4b3d8f069fa",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/feature-eval.md",
+      "sha256": "fab2ea1c425eaf54abbae191d450cb24c8199416a418046ce03c308b77aad6f8",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/feature-now.md",
+      "sha256": "be10826d1471e6acd160d06fa53fef47a556e9103c8dd1179b66195662c5448d",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/feature-open.md",
+      "sha256": "98358885fb0092e49fc6484edf7b934282e08bff7944ce5f02f9946801648e98",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/feature-prioritise.md",
+      "sha256": "7dbd876439accfd9112f73e5078d30fd6a5e4ee0594e7871226ca0d2654d8542",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/feature-push.md",
+      "sha256": "3df6330fb4450b7e4a47d53bab166c226b845538fdbced1fe1a7cc28a36e3949",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/feature-reset.md",
+      "sha256": "3f7d1b0aafb508864781cfd3e8abcbf6e0f2df2d8c0342da6b3494cc3fa0fa1e",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/feature-review.md",
+      "sha256": "73371cc4b2006126876032af7154142c0535952422ecb9e1e10d7658c19fea1e",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/feature-spec-review.md",
+      "sha256": "310d59e212733c8ad844a0f6c2839646fb923b8cb2723ed64dbce095927f702b",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/feature-spec-revise.md",
+      "sha256": "06dfcef6534b4d0082a6c06d8f5975aa97d8483db671dc270d2d28129b8e7660",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/feature-start.md",
+      "sha256": "33eb829448cb0814e1ed9ef22001900337e925bb4dbdb392e12c46ac7935c6cc",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/feature-transfer.md",
+      "sha256": "ad66ea74e80df66f956e046929835190fce3fee93fcc91b0c65e0329de1a48e8",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/feature-unprioritise.md",
+      "sha256": "256774bef642f54994fd0114bccad516d79e5f52d41651e9b05bfe8e4e9a18a6",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/feedback-create.md",
+      "sha256": "16b5321b6264b8efb23b4792ed3525484810a2c1a412f7c3cddaf45627c74736",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/feedback-list.md",
+      "sha256": "74972f414cd8db735979bd2815029dd2a48461cc8788f3ba64ed950962341d4a",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/feedback-triage.md",
+      "sha256": "f0e4b5d005573d4fda5498d2db84e7627908a5cf142ca1d3651fc40aa0e15362",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/help.md",
+      "sha256": "4226a0e57cffc29f62195995053ede94ac1124a7c121b714623cd6e2132aab81",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/next.md",
+      "sha256": "76e4f0d3b2bf4dc166fc6a0ed4340d01102b83c5c0f92403e5a17390206aec32",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/research-autopilot.md",
+      "sha256": "b5ef2a2e4b92ff7f97597a84b0f884a66ef672cbe841a70d728e2b23f8aa657a",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/research-close.md",
+      "sha256": "b3e7adef8754886df2a5467a7ceba8eff6485cfa53fbf7f1dd6edad1e43f43c7",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/research-create.md",
+      "sha256": "8548c0b29b9076f6826eef3148e51bfddb93cf127f1fe5b56cf40d25df054da0",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/research-do.md",
+      "sha256": "c1c6a71f1cf0715854a1b40faa0e8245d5cf5a860521bfbb6fe8bf8749ba9bde",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/research-eval.md",
+      "sha256": "3afe6b655b095ed43afcb772a0f059c41c34b2de9c0551904386f382af9ffdd1",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/research-open.md",
+      "sha256": "e8cc22cca23035bb53ca06b61bb474756b2338df0c62ac121d08ff9a6824ea0d",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/research-prioritise.md",
+      "sha256": "2d5486b7edb7ae1c6e5d658d79eee0bfa70fe4900336e7c230cd603b72f88c84",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/research-reset.md",
+      "sha256": "1bb6b0f7fd2698599a5a3cbe3dd2afed2f66457b52e63bb8e074e564007ce627",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/research-spec-review.md",
+      "sha256": "7ca6037728527d72ef967d41f9d1fdccc5172c066f774f8107c76eef7176849e",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/research-spec-revise.md",
+      "sha256": "aa887f4dd54015db2936ff57853fa8591b7ee24f278c67ae4b61fe7598fc45dd",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/research-start.md",
+      "sha256": "f6da9a91611a26c74b4d0ceae48708cbf749672cbfccde8b7006cfca25ae03ed",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/research-unprioritise.md",
+      "sha256": "1f660e3f6afacb6aaa50b07dcef12c0611e878055ccd8d381c03599e778a586a",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/sessions-close.md",
+      "sha256": "90a424af7bc4e899c757372ce8b9cd139287f328aae9c53e34b5f815bf97eb54",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/commands/aigon/set-prioritise.md",
+      "sha256": "f89a9305bb88d7e6293102655d2e0782d3de2f3423cbf44745bbf176593d8c9a",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/skills/aigon/SKILL.md",
+      "sha256": "167f86154e4ef724763e6fa672583d46278c1e2f99dba8cf3f6cd4fd77024aa7",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-board.md",
+      "sha256": "79d6ebf0560096348b6a145d2ef30c716cb0fb1ead8d6ecd80cb7c3eca2bfc90",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-dev-server.md",
+      "sha256": "5025fa490241865cd0dd12f31b16651ab9dc6bbcb8e666a6774ecb4876a2a408",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-feature-autonomous-start.md",
+      "sha256": "012bdc088c44419fa23aacc5a6dc0f842d47209c1798d5728b6b59a4f25a102d",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-feature-cleanup.md",
+      "sha256": "6e39d614898bb920d0cc276405b0a88093a3eec708aecd9050384b8288118e8a",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-feature-close.md",
+      "sha256": "2bb9dfe47fb1fd32b468f95bd376167184e1cb84e82795a09b07826ed8f60a2e",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-feature-code-review.md",
+      "sha256": "258b601646122f5c9646de336ae62818afd1b0de1b8e231f65898c8fda13ab96",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-feature-code-revise.md",
+      "sha256": "03f3124557bf83e6bc0430b8a718d662d7b818441c39dc2d2aea47f9dd6f667c",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-feature-create.md",
+      "sha256": "35e76b5669ac958893fef400010cc0ddb75bdd83d21db5dec6df7016fed8e77f",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-feature-do.md",
+      "sha256": "cb28ca1d2426ba21753ecf73e5a011746f6495ef8e5fe0126a955feb2d7386d3",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-feature-eval.md",
+      "sha256": "8d59107101ae243eef041fcb5137feab5bfa010337515fad31394958c22f5149",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-feature-now.md",
+      "sha256": "a96a5730068047d48f7bf5ef18e41012ae1bcf39deca5c34610bd8b095b3ee8e",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-feature-open.md",
+      "sha256": "e62539ff4ebd99f281db61ea8039113ae4f8a718c6cbb344fba5be0e50e77b3e",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-feature-prioritise.md",
+      "sha256": "eb0536ce3d996c023a9cf372490ec05a0b5cd02a64ac0c609ddf59a2b375bffd",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-feature-push.md",
+      "sha256": "362202d97e5435139b0ec0252eaac12498ffadf03137eb5b316a8cb6654c5849",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-feature-reset.md",
+      "sha256": "c097821afc23758b5ab8b9c7596d4683926f9ad67bd25c99dbc21057e942d495",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-feature-review.md",
+      "sha256": "5a509ced5b47f8ef4e765c0adb774c5be4057019c1d3d49c6a1d514a2c3c89ea",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-feature-spec-review.md",
+      "sha256": "36b437bf368e7d5ce5038d1c8d220cda751be716f2e8eaf8651cd1acaf640e20",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-feature-spec-revise.md",
+      "sha256": "e19737321ce23953acb1597dde7cd32d287583eb23cf7087ecac7a17705a3ab2",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-feature-start.md",
+      "sha256": "cca6b93112c3c6a3a153033ffe652ba333c9e5a97df9b4b31895b5714d0ceac2",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-feature-transfer.md",
+      "sha256": "3873bba9cfb8579f4fcfd1c1ff1630ec3c6bd329e7235a4c81692d0b2f38b79c",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-feature-unprioritise.md",
+      "sha256": "8ac3ebc6f1f0a73a713704c4acb3a8a2accb1e08d8856aad7042f274b305f725",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-feedback-create.md",
+      "sha256": "5d3655cbf817c3a1aa9a0cc9bab483df4239dc172995c18a77852cbefb2ec00a",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-feedback-list.md",
+      "sha256": "b390cd3e9a43ca0346394899dae4260ee74c87a50f2f4b3a2e4a7753953c5a00",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-feedback-triage.md",
+      "sha256": "8e39d64f132487e8b80f22788bcadba1aac944540e1d3ff7104db81c2a59764a",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-help.md",
+      "sha256": "a8338509a56b4a2ffb276005782469e58524a66c139c0b7532316f92a11a5291",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-next.md",
+      "sha256": "68bf8cd0f53ef6e04468868b03ad0bae98b60f3696f431e82fd508a95e4d26ac",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-research-autopilot.md",
+      "sha256": "ba9bdc5c28c9c48dc3710f056211b44fbcb8b688ba05610a5c614d6622abb9a9",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-research-close.md",
+      "sha256": "f7870d7a364697154d3fdea9d0c028a64f35c43bbaedfa3af93648b8d03ed7e9",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-research-create.md",
+      "sha256": "0958e75267696d88043d2b3c19877a12025a42093d768b4aaeba91a5538dd3c3",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-research-do.md",
+      "sha256": "c434126215e45185fefd91a8c43cd97f48b026a698ddded1745c97aae81b59ac",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-research-eval.md",
+      "sha256": "9882b7295c45d487b5e46a5dfbd0326733fc54784d1c4e64a8ab4c4f422bde0a",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-research-open.md",
+      "sha256": "206916ae16295e8fa66205714522558426ab24cd4c37f3929ee0bbb01ca9cadb",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-research-prioritise.md",
+      "sha256": "f94f1e9d04a94de1b566f956f7893691234620535de5e69340f3ec54c61888eb",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-research-reset.md",
+      "sha256": "6305ca389fc2550f77a3a585d1f9daa771ff94c194473ab505528a75d65b1a5a",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-research-spec-review.md",
+      "sha256": "78ea0150e66aa5bd02cd27916c775ad03ef6f1118b99c626e0ffaecf3329bec1",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-research-spec-revise.md",
+      "sha256": "68d752eac810042f4237d04a43c0dd4cd84a631414a2738880a46a8e794d9632",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-research-start.md",
+      "sha256": "8ad437f164a6bce7e1352d50276763d7c9e47d59c9198e1e938badd5d89ef54a",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-research-unprioritise.md",
+      "sha256": "88fe3e6ca704cee67243df473de4c006c8e4259b5010254592424d334c11cc4f",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-sessions-close.md",
+      "sha256": "bfb41c5fcad762aeb2384023bedd5771405ecfd4b6dfac65fb6b3afa2cb371c1",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/commands/aigon-set-prioritise.md",
+      "sha256": "cd8eeeacafeb20c131d12c0ddde9475b56ddb579b2bc3c260f46fd34033eef34",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".cursor/rules/aigon.mdc",
+      "sha256": "e59940f3ab55493177127a66b484535dcb5e82e51dd28a8ce7d79f61a8d559c5",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".codex/config.toml",
+      "sha256": "f5a96a24a557018ad28663dfabb9e157d242145d670c2f95cd0f6bdf3266b33e",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/ab.toml",
+      "sha256": "51779656dbc673e95a2ccc9a6bd8430a42e54c669aedcbcf56412f26d77813a7",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/ads.toml",
+      "sha256": "23908ce342f0f5b9e4cf3aa2bbf3e06ac151a2867dad0af166569f9773d4205d",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/afbc.toml",
+      "sha256": "65309abe56acf514dca22c75908d4393cd76bf323517e5015042e304585fa8e1",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/afbl.toml",
+      "sha256": "eedcb115560c2d3569ad066023c959506a629bbdc266ada81fea1ed519c65239",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/afbt.toml",
+      "sha256": "336b4106b34311a6719da718d6ed8b06376aebf6532272569ccd727fe7222b35",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/afc.toml",
+      "sha256": "cd90585a741587b59278a4e10f368c2ceaed7f108bacfec8c74e61ef5017a62e",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/afcl.toml",
+      "sha256": "aeac705e67fe9143bdd9abd388045315e551026db3de7596a2851eff1ec00e1c",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/afd.toml",
+      "sha256": "d9fcba3e314474cb06432debaa80530e0f846d64a86680f479b6eae3a179d7b0",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/afe.toml",
+      "sha256": "4b7df6d99f966858849343ca94ac32ff91f34236041407f3ce319c0753b71fb2",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/afn.toml",
+      "sha256": "3f6bce99234419c532f82fa49c084e13318c69105a3345a518af25910c964103",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/afo.toml",
+      "sha256": "d4036b3042fb8d629b3b304dc09805dd6e01e862fec32e5e802272a70a6b8f5c",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/afp.toml",
+      "sha256": "8974d8e26e6cb480c415df90b791feabe5d59da46a822d227f58e9bb6dd9960e",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/afr.toml",
+      "sha256": "728ebb6db16b2b509d3bcc555eca44eeca7de9cab2246e9f6b7744784612db38",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/afrv.toml",
+      "sha256": "b95b0c0b1013733573a71c809f1f3d68fffdda1e13e6cab48241c300b9aa8864",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/afs.toml",
+      "sha256": "cfc53247bd533c8cfddac5d1b118465b5a2caf7c1171be5a902867cab6480af6",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/afsr.toml",
+      "sha256": "d409c9a0ea7de524125473cb6a35bc5c4168dab02da058ca0f07b5629b5514c3",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/afsrv.toml",
+      "sha256": "fecbf7125fb0225d65af715dfc9a7ad567d56824b245cf2fcd109821807ccf9d",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aft.toml",
+      "sha256": "9f3cfa018a7d04ac6de524168f3cfeb83ebc34bee4f64a185751322865f4ff24",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/ah.toml",
+      "sha256": "20d9ea536ac5d89db780299a5cd3c006a1e77ad0e86c13675fb0ce5410118673",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/board.toml",
+      "sha256": "30a438618c814e52e2393f05ce30b3a73e3cf09f6c84a1a5224d5bbc1b6ecfe3",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/dev-server.toml",
+      "sha256": "bf3ba7450beff0fcd49382ae8711ce7272dfa51f637ce91010bae897b795a92f",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/feature-autonomous-start.toml",
+      "sha256": "5e8418c3bdedbf689903761ff736e788dd5b55e8d38b8c697fff20c92001a892",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/feature-cleanup.toml",
+      "sha256": "cc5329628384d7c69e4b4c5178524e1564919597aa436e2f77e3f5c3ee6581f4",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/feature-close.toml",
+      "sha256": "6a8d0fc06f7cb964779aa3f9e2c7607a23b43b8d18b472eadf28c260ba60622d",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/feature-code-review.toml",
+      "sha256": "ed8a1c2613d1450e83cac90407cf2fb26db2812cc06a08e0ed11e4c6afab9727",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/feature-code-revise.toml",
+      "sha256": "8122dd7360c1e59ffdf970f23371920e52367ec3bcdd84b024d8002dfa404356",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/feature-create.toml",
+      "sha256": "51cbb786019846a087d4a416bcf4ed55941ac8ca693639663d2e8ce392b329ce",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/feature-do.toml",
+      "sha256": "98b0408e503ad85cf1e9b9c3ea104a1ed8c7d6f5a91789fd3887cf2b18540ce5",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/feature-eval.toml",
+      "sha256": "66e1990a401f08cd8c6136f037fcd449ee3f6a972dfc260879cd9100498100c3",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/feature-now.toml",
+      "sha256": "6a9311a12526c094d59464175b21a5114608fd25aae9391d3b3dad5d795d35f1",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/feature-open.toml",
+      "sha256": "3131661680f4296070dc7bfd8879cec77255dae7b56a3537f07612c0b230178f",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/feature-prioritise.toml",
+      "sha256": "b87bd677ec967dcd3fef3a30c74b0509fbb0dac093b563ca81d239d1052a9ca0",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/feature-push.toml",
+      "sha256": "f8901b115717dad90f8dc53ae7c6d5524f555d5eccd31ac69f4816de04e09535",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/feature-reset.toml",
+      "sha256": "4fbbdd7de7485236e30361b84d329fb2836c52a76ad06315958b43e9cbb4ef97",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/feature-review.toml",
+      "sha256": "c0a6ddc7a94380c92a41a1855bc44b4a1bebe80ae553bb701c3ef342059a2924",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/feature-spec-review.toml",
+      "sha256": "185c77b297f9ce64f5c9426dad3ca3554468dd849a3881e1c1eb5cbd10ce93fa",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/feature-spec-revise.toml",
+      "sha256": "93152ee7f502289adcfa7aef795e1341cbd9c10f24a3f02a18aa96939aba1fb1",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/feature-start.toml",
+      "sha256": "d211759be25e4c1942b71e53fcf35fd7b10b9c8bf16656165a984cf0fa4d94a8",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/feature-transfer.toml",
+      "sha256": "f37eef5c66795b001ac9af563a4980c71f5c5fb19ac64deb45c769c0fe4827b7",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/feature-unprioritise.toml",
+      "sha256": "cbe8338e06232e6a8a49ef7d458a3c0d1f2d920c75d5d42b419ded8f27270a90",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/feedback-create.toml",
+      "sha256": "bf33e036e8c95d5fd0310a19bbad7e39da1561c4d3e6d9101514561cb04c5c05",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/feedback-list.toml",
+      "sha256": "130dacbb1fe6f020f9805e0f0c951f6262874bb701e391b3b2c22950c133a9b3",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/feedback-triage.toml",
+      "sha256": "d4d001f0d60592da72451a10a6c3e9196b84d725c954ef19609c4a3f5ecbb1bb",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/help.toml",
+      "sha256": "f435a551c3cf0d92195df7694ea8e946681dffd30bb8506141244d9633a938b6",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/next.toml",
+      "sha256": "2ee627d8f5d4eda80a1ff5e7269114ce31eb61de1a2e815314a771dc7d82b9d8",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/research-autopilot.toml",
+      "sha256": "d2a385628b721d568616fb84313aba84872a53170f3977811333403d05f5fd81",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/research-close.toml",
+      "sha256": "3169854ba1093d4faaf54b7d9e1511391c3d1ff0758e5992d5c809e5ec8c7d03",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/research-create.toml",
+      "sha256": "264b74c86611d63f4519901838362ec1a2120366ec5d9276040db00931574a1d",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/research-do.toml",
+      "sha256": "907efecbd40a9355f3caac1902a6842e58bc91a57bf596df2d167685edeb5acb",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/research-eval.toml",
+      "sha256": "25d7e18d1701b8134367779b2de28c9a50e0d2e96984c6769f02a3878bf42605",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/research-open.toml",
+      "sha256": "4020a2161d780df97d9b33b26c9c7f771b41e8aebb334c2f320240894ae004ad",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/research-prioritise.toml",
+      "sha256": "d2a9212a5281015a45a29d739dc6db1c9df8d47050ecb58c7db4432da546c534",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/research-reset.toml",
+      "sha256": "c7013bd6eb7c98bd3fbe5c3470fa43cad41c77503dd93998e33b321d1c048193",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/research-spec-review.toml",
+      "sha256": "4cb9609fbb01932c63d943a73da5dbe78ed86d9343bdd3fee3c53f39b55877f8",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/research-spec-revise.toml",
+      "sha256": "bd58be19be2285e33ac653568d949913aa0fa7d759adb774b06c1c226459bcf3",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/research-start.toml",
+      "sha256": "2b43bad24691c37060cc4662c14e350618f305affb3e19d8765d593765cf9f03",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/research-unprioritise.toml",
+      "sha256": "ef9b959481e76c406a0edf939735371a52429bd7a6a85400338cfd3bade0f586",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/sessions-close.toml",
+      "sha256": "f2f81eddf535d3959b8984f1395f5555e6dbfe113a6a25710bd9f251058d0b44",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aigon/set-prioritise.toml",
+      "sha256": "975d29cef670f3217eb589a0c7766bd73eb732294088168c4bbbbe34193b5667",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/an.toml",
+      "sha256": "d354af9a6605e991dc4bb8504e4a37f998db34c52bb079329c00ab3c270ce1e3",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/arap.toml",
+      "sha256": "80843d974def2f64df8480dc44f11aaed775873733ae52083d2b504019db9da1",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/arc.toml",
+      "sha256": "5de4cff78a6b184fb6d36510e7d301da77f2ea87e1dc1e38279ef870741eb2c5",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/arcl.toml",
+      "sha256": "c97b031eb6bb348f1fc6374af00e3d2eb91fb256cd547dea9d88294f57587a56",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/ard.toml",
+      "sha256": "afe527a9ea9bc97685038be10d1bcf4cd262c89b883d50b6b9602ffc7ca261b1",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/are.toml",
+      "sha256": "1a7241a2e92fce7750cb553e9d6dae2c50f736e85bcc960fcbc3f8748bd19b01",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/aro.toml",
+      "sha256": "84d9e39898d1f2882247bf33cfc60e83ce750e31c4f83e99666408a0db8cfb40",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/arp.toml",
+      "sha256": "aadc5e3cf5e5d84abc587b48858b9374e4353644b91cabaf5fee4b7a1fca249b",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/arr.toml",
+      "sha256": "d50d9d940ef8e85d028ed6b33312237f7890715fae8e101f060e84a0749553be",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/ars.toml",
+      "sha256": "aaefc50068fadca3574ed2fde59882573b77cfc3138364a1a008a7840eef0458",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/arsr.toml",
+      "sha256": "be81f44e0e2d0554dcd84f4a12853e650ea1ba7c790624fbff02b7bf1bef70fb",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/arsrv.toml",
+      "sha256": "1be37aba91f8ad76a4b6f0dc1b83c442f3fd9cbd303797d90ae9d34bcf1e6ebc",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/commands/asp.toml",
+      "sha256": "787e4ed02c7bba76f42750288486cad0cc324519fd155658493f006fd72bf542",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".gemini/settings.json",
+      "sha256": "79008559922a9d11c5d7c12dba90e533349eba805b6880cce79064ec7e83923e",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    },
+    {
+      "path": ".claude/settings.json",
+      "sha256": "d3dce07b4407804f05ae829b821b887d6e657b5142ed29a6ed0da06d49a1f0f8",
+      "version": "2.61.0",
+      "installedAt": "2026-04-28T06:46:56.222Z"
+    }
+  ]
+}
