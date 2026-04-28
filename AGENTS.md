@@ -27,12 +27,3 @@ This is a simple seed repo used for testing the Aigon workflow. Features are int
 - **No doc updates** — do not update CLAUDE.md or architecture docs for seed repo features
 - **One commit** — combine code and log into a single commit, not two separate ones
 
-<!-- AIGON_START -->
-## Aigon
-
-This project uses the Aigon development workflow.
-
-- Agent-specific notes: `docs/agents/*.md`
-- Architecture overview: `docs/architecture.md`
-- Development workflow: `docs/development_workflow.md`
-<!-- AIGON_END -->

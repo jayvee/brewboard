@@ -58,11 +58,6 @@ description: Show Aigon commands (shortcut for help)
 | Code | Agent | Command | Mode |
 |------|-------|---------|------|
 | cc | Claude Code | `claude --permission-mode acceptEdits` | Auto-edits, prompts for risky Bash |
-| gg | Gemini | `gemini --yolo` | Auto-approves all |
-| cx | Codex | `codex` | Workspace-write, smart approval |
-| cu | Cursor | `agent --force` | Auto-approves commands (yolo mode) |
-| op | OpenCode | `opencode` | Workspace-write, smart approval |
-| km | Kimi Code CLI | `kimi --yolo` | Auto-approves all |
 
 **Quick-allow when prompted:** Claude `Shift+Tab` • Gemini `2` for always • Cursor "Add to allowlist" • Codex "Allow and remember"
 

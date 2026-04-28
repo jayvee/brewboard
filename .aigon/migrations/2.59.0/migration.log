@@ -1,0 +1,10 @@
+[2026-04-28T02:07:36.618Z] Starting migration to 2.59.0
+[2026-04-28T02:07:36.619Z] Entities before: features=8, research=3, feedback=4
+[2026-04-28T02:07:36.619Z] Creating backup of .aigon/workflows/
+[2026-04-28T02:07:36.741Z] Backup created successfully
+[2026-04-28T02:07:36.742Z] Running migration function
+[2026-04-28T02:07:36.743Z] migrate_drop_aigon_agents_md_block: removed marker block from AGENTS.md
+[2026-04-28T02:07:36.743Z] Migration function completed
+[2026-04-28T02:07:36.743Z] Validating state files
+[2026-04-28T02:07:36.744Z] Validation passed
+[2026-04-28T02:07:36.744Z] Migration completed successfully

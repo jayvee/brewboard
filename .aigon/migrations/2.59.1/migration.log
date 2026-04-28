@@ -1,0 +1,10 @@
+[2026-04-28T02:07:36.744Z] Starting migration to 2.59.1
+[2026-04-28T02:07:36.744Z] Entities before: features=8, research=3, feedback=4
+[2026-04-28T02:07:36.744Z] Creating backup of .aigon/workflows/
+[2026-04-28T02:07:36.782Z] Backup created successfully
+[2026-04-28T02:07:36.782Z] Running migration function
+[2026-04-28T02:07:36.782Z] migrate_drop_aigon_project_md: docs/aigon-project.md not present, skipping.
+[2026-04-28T02:07:36.782Z] Migration function completed
+[2026-04-28T02:07:36.782Z] Validating state files
+[2026-04-28T02:07:36.783Z] Validation passed
+[2026-04-28T02:07:36.783Z] Migration completed successfully
