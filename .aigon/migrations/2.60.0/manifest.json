@@ -1,0 +1,40 @@
+{
+  "fromVersion": null,
+  "toVersion": "2.60.0",
+  "migratedAt": "2026-04-28T04:02:02.057Z",
+  "status": "success",
+  "entities": {
+    "features": {
+      "migrated": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "beer-style-filters",
+        "social-sharing"
+      ],
+      "skipped": []
+    },
+    "research": {
+      "migrated": [
+        "01",
+        "02",
+        "payment-providers"
+      ],
+      "skipped": []
+    },
+    "feedback": {
+      "migrated": [
+        "feedback-01-slow-search",
+        "feedback-02-broken-rating",
+        "feedback-03-dark-mode-flicker",
+        "feedback-04-export-to-csv"
+      ],
+      "skipped": []
+    }
+  }
+}
