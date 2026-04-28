@@ -1,0 +1,9 @@
+{
+  "features": {
+    "08": {
+      "targetState": "code_review_in_progress",
+      "authorAgentId": "cc",
+      "specPath": "docs/specs/features/02-backlog/feature-08-rating-filter.md"
+    }
+  }
+}
