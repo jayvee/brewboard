@@ -39,7 +39,7 @@ aigon research-autopilot $ARGUMENTS cc gg cx --auto-eval
 
 1. **Setup phase**: If no findings files exist, runs `research-start` to create them
 2. **Spawn phase**: Creates a tmux session for each agent, running `research-do`
-3. **Monitor phase**: Polls agent findings files every 30s for `submitted` status, prints status table
+3. **Monitor phase**: Polls agent findings files every 30s for `complete` status, prints status table
 4. **Evaluate phase**: If `--auto-eval`, runs `research-eval` automatically; otherwise prints the command
 
 ## Subcommands

@@ -8,12 +8,12 @@
           {
             "type": "command",
             "command": "/bin/zsh -l -c \"aigon check-version --json\"",
-            "timeout": 30
+            "timeout": 30000
           },
           {
             "type": "command",
             "command": "/bin/zsh -l -c \"aigon project-context --json\"",
-            "timeout": 10
+            "timeout": 10000
           }
         ]
       }
@@ -25,7 +25,7 @@
           {
             "type": "command",
             "command": "/bin/zsh -l -c \"aigon check-agent-signal --json\"",
-            "timeout": 5
+            "timeout": 5000
           }
         ]
       }
