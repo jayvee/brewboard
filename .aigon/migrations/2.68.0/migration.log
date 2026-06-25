@@ -1,0 +1,13 @@
+[2026-06-25T04:40:09.509Z] Starting migration to 2.68.0
+[2026-06-25T04:40:09.513Z] Entities before: features=0, research=0, feedback=4
+[2026-06-25T04:40:09.513Z] Creating backup of .aigon/workflows/
+[2026-06-25T04:40:09.513Z] Backup created successfully
+[2026-06-25T04:40:09.513Z] Running migration function
+[2026-06-25T04:40:09.540Z] feedback-migrate: created docs/specs/research-topics/02-backlog/research-04-please-let-me-export-my-collection-to-csv.md from feedback #4
+[2026-06-25T04:40:09.562Z] feedback-migrate: created docs/specs/research-topics/02-backlog/research-05-white-flash-on-every-page-navigation-in-dark-mode.md from feedback #3
+[2026-06-25T04:40:09.581Z] feedback-migrate: created docs/specs/research-topics/01-inbox/research-06-half-star-ratings-round-down-silently.md from feedback #2
+[2026-06-25T04:40:09.599Z] feedback-migrate: created docs/specs/research-topics/01-inbox/research-07-search-is-unusable-on-mobile-5-seconds-per-keystroke.md from feedback #1
+[2026-06-25T04:40:09.599Z] Migration function completed
+[2026-06-25T04:40:09.599Z] Validating state files
+[2026-06-25T04:40:09.600Z] Validation passed
+[2026-06-25T04:40:09.600Z] Migration completed successfully
