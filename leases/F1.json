@@ -2,10 +2,10 @@
   "impl": {
     "holderId": "vinorganair",
     "user": "johnpviner@gmail.com",
-    "agentId": null,
+    "agentId": "cc",
     "acquiredAt": "2026-07-11T02:14:21.267Z",
-    "expiresAt": "2026-07-11T02:44:21.267Z",
-    "renewCount": 0,
-    "lastEventType": "lease.acquired"
+    "expiresAt": "2026-07-11T02:56:21.642Z",
+    "renewCount": 1,
+    "lastEventType": "lease.renewed"
   }
 }
