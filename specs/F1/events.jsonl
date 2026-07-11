@@ -2,3 +2,4 @@
 {"type":"feature.started","featureId":"01","mode":"solo_worktree","agents":["cc"],"at":"2026-07-11T02:14:23.619Z","modelOverrides":{"cc":"claude-haiku-4-5-20251001"},"effortOverrides":{"cc":"medium"},"id":"399b53a3079da89a5bae5c97"}
 {"type":"effect.requested","effect":{"id":"start.move_spec","type":"move_spec","payload":{"fromPath":"/Users/jviner/src/brewboard-storage-lab/docs/specs/features/02-backlog/feature-01-format-date.md","toPath":"/Users/jviner/src/brewboard-storage-lab/docs/specs/features/03-in-progress/feature-01-format-date.md"}},"at":"2026-07-11T02:14:28.583Z","id":"7a9904296812c420c7afbc0c"}
 {"type":"effect.claimed","effectId":"start.move_spec","at":"2026-07-11T02:14:32.404Z","id":"1d2de6df2afd53048a2d0b39"}
+{"type":"effect.succeeded","effectId":"start.move_spec","at":"2026-07-11T02:14:35.518Z","id":"5d6c28cf81b1279f5f26f9e9"}
