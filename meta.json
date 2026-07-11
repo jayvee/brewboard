@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "backend": "git-branch",
+  "branch": "aigon-state",
+  "remote": "origin"
+}
