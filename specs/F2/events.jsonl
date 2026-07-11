@@ -12,3 +12,4 @@
 {"type":"effect.requested","effect":{"id":"close.move_spec_to_done","type":"move_spec","payload":{"fromPath":"/home/dev/src/brewboard-storage-lab/docs/specs/features/03-in-progress/feature-02-brewery-import.md","toPath":"/home/dev/src/brewboard-storage-lab/docs/specs/features/05-done/feature-02-brewery-import.md"}},"at":"2026-07-11T02:25:25.769Z","id":"efe1a15b5d30cdb64ff6a2b2"}
 {"type":"effect.claimed","effectId":"close.move_spec_to_done","at":"2026-07-11T02:25:30.422Z","id":"b3a101065880cc1e7436e4ad"}
 {"type":"effect.succeeded","effectId":"close.move_spec_to_done","at":"2026-07-11T02:25:33.613Z","id":"7910e843a414b9bcdec201d0"}
+{"type":"feature.closed","at":"2026-07-11T02:25:36.853Z","id":"257f48257ab464124ba0f944"}
