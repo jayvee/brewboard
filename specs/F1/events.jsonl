@@ -4,3 +4,4 @@
 {"type":"effect.claimed","effectId":"start.move_spec","at":"2026-07-11T02:14:32.404Z","id":"1d2de6df2afd53048a2d0b39"}
 {"type":"effect.succeeded","effectId":"start.move_spec","at":"2026-07-11T02:14:35.518Z","id":"5d6c28cf81b1279f5f26f9e9"}
 {"type":"signal.heartbeat","agentId":"cc","at":"2026-07-11T02:14:39.719Z","id":"6fef8668bf852c7eabbffeb5"}
+{"type":"signal.heartbeat","agentId":"cc","at":"2026-07-11T02:14:54.127Z","id":"8ac63146d753f589365082f4"}
