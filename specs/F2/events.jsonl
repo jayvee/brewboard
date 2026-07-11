@@ -14,3 +14,4 @@
 {"type":"effect.succeeded","effectId":"close.move_spec_to_done","at":"2026-07-11T02:25:33.613Z","id":"7910e843a414b9bcdec201d0"}
 {"type":"feature.closed","at":"2026-07-11T02:25:36.853Z","id":"257f48257ab464124ba0f944"}
 {"id":"lease-F2-impl-a420485e560b3f10","type":"lease.released","at":"2026-07-11T02:25:44.883Z","leaseKey":"F2","leaseRole":"impl","holderId":"aigon-storage-lab","user":"test@example.com","agentId":null,"acquiredAt":"2026-07-11T02:22:22.579Z","expiresAt":"2026-07-11T02:52:22.579Z","renewCount":0}
+{"id":"lease-F2-close-66146f80e91eb609","type":"lease.released","at":"2026-07-11T02:25:47.234Z","leaseKey":"F2","leaseRole":"close","holderId":"aigon-storage-lab","user":"test@example.com","agentId":null,"acquiredAt":"2026-07-11T02:25:14.727Z","expiresAt":"2026-07-11T02:55:14.727Z","renewCount":0}

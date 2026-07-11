@@ -1,11 +1,1 @@
-{
-  "close": {
-    "holderId": "aigon-storage-lab",
-    "user": "test@example.com",
-    "agentId": null,
-    "acquiredAt": "2026-07-11T02:25:14.727Z",
-    "expiresAt": "2026-07-11T02:55:14.727Z",
-    "renewCount": 0,
-    "lastEventType": "lease.acquired"
-  }
-}
+{}
