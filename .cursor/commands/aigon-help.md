@@ -61,6 +61,7 @@
 | km | Kimi Code CLI | `kimi --yolo` | Auto-approves all |
 | am | Amp | `amp --no-ide --no-jetbrains --no-notifications --dangerously-allow-all` | --no-ide --no-jetbrains --no-notifications --dangerously-allow-all |
 | ag | Antigravity CLI | `agy --dangerously-skip-permissions` | --dangerously-skip-permissions |
+| cp | GitHub Copilot CLI | `copilot --allow-all --interactive` | --allow-all --interactive |
 
 **Quick-allow when prompted:** Claude `Shift+Tab` • Antigravity uses `--dangerously-skip-permissions` at launch • Cursor "Add to allowlist" • Codex "Allow and remember"
 
