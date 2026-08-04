@@ -1,0 +1,10 @@
+[2026-08-04T14:52:42.815Z] Starting migration to 2.76.0
+[2026-08-04T14:52:42.816Z] Entities before: features=0, research=0, feedback=4
+[2026-08-04T14:52:42.816Z] Creating backup of .aigon/workflows/
+[2026-08-04T14:52:42.816Z] Backup created successfully
+[2026-08-04T14:52:42.816Z] Running migration function
+[2026-08-04T14:52:42.817Z] drop_pro_key: no proKey — skip
+[2026-08-04T14:52:42.817Z] Migration function completed
+[2026-08-04T14:52:42.817Z] Validating state files
+[2026-08-04T14:52:42.817Z] Validation passed
+[2026-08-04T14:52:42.818Z] Migration completed successfully
